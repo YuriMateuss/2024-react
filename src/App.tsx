@@ -1,7 +1,7 @@
 function MyButton() {
   return (
     <button>
-      I'm a button
+      Eu sou um botão muito tímido
     </button>
   );
 }
