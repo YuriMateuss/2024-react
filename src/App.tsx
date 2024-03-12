@@ -9,7 +9,11 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div>
-      <h1>Bem-vindo ao meu botão</h1>
+      <h1>Primeiro botão</h1>
+      <MyButton />
+      <h1>Segundo botão</h1>
+      <MyButton />
+      <h1>Último botão</h1>
       <MyButton />
     </div>
   );
