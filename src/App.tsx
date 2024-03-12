@@ -1,11 +1,16 @@
-const App = () => {
-    return (
-      <div>
-        <h1>Bem vindo ao mundo React</h1>
-        <button>eu sou um botão html</button>
-      </div>
-    );
-  }
-  
-  export default App;
-  
+function MyButton() {
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
+}
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Bem-vindo ao meu botão</h1>
+      <MyButton />
+    </div>
+  );
+}
